@@ -7,7 +7,7 @@ while True:
 one = int(input("Введите первое число: "))
 second = int(input("Введите второе число: "))
 
-result = 1
+result = 0
 if command == "+":
     result = first + second
 elif command == "-":
@@ -18,4 +18,3 @@ elif command == "/":
     result = first / second
 
 print(f"{first} {command} {second} = {result}")
-print(result)
