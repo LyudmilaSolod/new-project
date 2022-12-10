@@ -7,7 +7,7 @@ while True:
 one = int(input("Введите первое число: "))
 second = int(input("Введите второе число: "))
 
-result = 0
+result = 1
 if command == "+":
     result = first + second
 elif command == "-":
