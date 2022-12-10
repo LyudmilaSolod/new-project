@@ -18,3 +18,4 @@ elif command == "/":
     result = first / second
 
 print(f"{first} {command} {second} = {result}")
+print(result)
